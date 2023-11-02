@@ -6,5 +6,8 @@ Learning project for web-development using "Realtime Chat With Users & Rooms - S
 Link: https://www.youtube.com/watch?v=jD7FnbI76Hg
 
 # Usage
-npm run dev
+npm install<br />
+npm run dev<br />
+Open localhost:3000 in your webbrowser <br />
+Each new webpage corresponds to a different user 
 
