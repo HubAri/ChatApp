@@ -7,8 +7,8 @@ Link: https://www.youtube.com/watch?v=jD7FnbI76Hg
 
 # Usage
 ```
-npm install<br />
-npm run dev<br />
+npm install
+npm run dev
 ```
 NEXT: Open localhost:3000 in your webbrowser <br />
     -> Each new webpage corresponds to a different user 
