@@ -19,6 +19,8 @@ socket.emit('joinRoom', {username, room});
 
 // Get room and users
 socket.on('roomUsers', ({ room, users}) => {
+    console.log(room)
+    console.log(`Current user is in room ${room}`);
     outputRoomName(room);
     outputUsers(users)
 })
@@ -59,7 +61,7 @@ function outputMessage(message) {
 
 //Add room name to DOM
 function outputRoomName(room) {
-roomName.innerTex = room;
+roomName.innerHTML = `${room}`;
 }
 
 //Add users to DOM
