@@ -61,4 +61,5 @@ buttons.forEach((button, i)=>{
     slideNumber = i + 1;
     buttons[i].style.backgroundColor = "black"
   })
+  
 })
