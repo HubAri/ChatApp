@@ -2,6 +2,7 @@ const left = document.querySelector(".leftArrow");
 const right = document.querySelector(".rightArrow");
 const slider = document.querySelector(".slider");
 const images = document.querySelectorAll(".image");
+const footer = document.querySelector(".footer")
 
 let slideNumber = 1;
 
@@ -24,3 +25,9 @@ right.addEventListener("click", () => {
     slideNumber = 1;
   }
 });
+
+for (let i= 0; i<images.length; i++){
+  const div = document.createElement("buttonRow")
+  div.className = "buttonRow";
+  footer.appendChild(div)
+}

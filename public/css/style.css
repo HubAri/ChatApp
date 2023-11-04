@@ -236,5 +236,21 @@ a {
 	transition: all 1s ease;
   }
 
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+    transform: translateY(-100px);
+}
 
+.buttonRow{
+	cursor: pointer;
+	border-radius: 30px;
+	background-color: #ffffff;
+	width: 20px; height: 20px;
+	border: solid 1px ;
+	justify-content: space-between;
+	
+}
 
